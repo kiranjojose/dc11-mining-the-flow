@@ -1,0 +1,8 @@
+,Edge only,Cloud only,Hybrid
+P2 data gap (8 h),detected at once; filled (MAE 0.321 m),not received; hours analysed without P2,edge-filled values marked 'reconstructed'; cloud ignores them
+P4 spikes (12),12/12 removed,4/11 spike-hours flagged as P4 fault,already removed at edge; 0 spurious hours
+P5 frozen sensor (18 h),detected after 0.08 h (6 equal samples); filled,"diagnosed P5 fault after 4.0 h, then P5 stays quarantined (cloud cannot see it recovered)",edge flag used directly; P5 excluded
+P7 slow drift,"'level shift' alert after 32.83 h, cause unknown","P7 quarantined after 27.0 h (single-sensor, physically inconsistent)","P7 quarantined after 27.0 h (single-sensor, physically inconsistent)"
+Leak 2 L/s,"'level shift' on 9/10 sensors within 24 h; cannot tell leak from drift, no location","LEAK alarm known after 5.0 h; localised at J05 (875 m from true J52, true node rank 15/42) at Wed 06:00, est. 2.5 L/s","LEAK alarm known after 3.0 h; localised at J52 (0 m from true J52, true node rank 1/42) at Tue 06:00, est. 2.0 L/s"
+False alarms (hours),1 wrongly flagged sample(s) (of 28810),"0 leak alarms before the leak (1 isolated leak-hour, filtered by the 2-hour rule); 0 hours blaming a healthy sensor","0 leak alarms before the leak (1 isolated leak-hour, filtered by the 2-hour rule); 0 hours blaming a healthy sensor"
+Data sent / lost in 6 h outage,alerts only (no network view),"2.81 MB, 28090 msgs / 720 samples lost","1.77 MB, 9620 msgs / 0 lost (store-and-forward)"

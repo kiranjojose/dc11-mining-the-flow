@@ -1,0 +1,519 @@
+{
+  "Things": [
+    {
+      "@iot.id": 1,
+      "name": "Logger Q_in",
+      "description": "Battery IoT logger at INLET main (synthetic DMA)",
+      "properties": {
+        "dma": "DMA-01",
+        "edge_firmware": "minetheflow-edge 0.1"
+      },
+      "Locations": [
+        {
+          "name": "INLET main",
+          "encodingType": "application/geo+json",
+          "location": {
+            "type": "Point",
+            "coordinates": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      ],
+      "Datastreams": [
+        {
+          "@iot.id": 1,
+          "name": "Q_in flow",
+          "unitOfMeasurement": {
+            "name": "litre per second",
+            "symbol": "L/s",
+            "definition": "http://qudt.org/vocab/unit/L-PER-SEC"
+          },
+          "observationType": "http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_Measurement",
+          "Sensor": {
+            "name": "Electromagnetic flow meter",
+            "encodingType": "application/pdf",
+            "metadata": "datasheet.pdf"
+          },
+          "ObservedProperty": {
+            "@iot.id": 2,
+            "name": "Volumetric flow rate",
+            "definition": "https://qudt.org/vocab/quantitykind/VolumeFlowRate",
+            "description": "DMA inlet flow"
+          }
+        }
+      ]
+    },
+    {
+      "@iot.id": 2,
+      "name": "Logger P1",
+      "description": "Battery IoT logger at junction J00 (synthetic DMA)",
+      "properties": {
+        "dma": "DMA-01",
+        "edge_firmware": "minetheflow-edge 0.1"
+      },
+      "Locations": [
+        {
+          "name": "junction J00",
+          "encodingType": "application/geo+json",
+          "location": {
+            "type": "Point",
+            "coordinates": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      ],
+      "Datastreams": [
+        {
+          "@iot.id": 2,
+          "name": "P1 pressure",
+          "unitOfMeasurement": {
+            "name": "metre (water column)",
+            "symbol": "m",
+            "definition": "http://qudt.org/vocab/unit/M"
+          },
+          "observationType": "http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_Measurement",
+          "Sensor": {
+            "name": "Piezoresistive pressure transducer",
+            "encodingType": "application/pdf",
+            "metadata": "datasheet.pdf"
+          },
+          "ObservedProperty": {
+            "@iot.id": 1,
+            "name": "Pressure head",
+            "definition": "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0330/",
+            "description": "Gauge pressure head"
+          }
+        }
+      ]
+    },
+    {
+      "@iot.id": 3,
+      "name": "Logger P2",
+      "description": "Battery IoT logger at junction J30 (synthetic DMA)",
+      "properties": {
+        "dma": "DMA-01",
+        "edge_firmware": "minetheflow-edge 0.1"
+      },
+      "Locations": [
+        {
+          "name": "junction J30",
+          "encodingType": "application/geo+json",
+          "location": {
+            "type": "Point",
+            "coordinates": [
+              450.0,
+              0.0
+            ]
+          }
+        }
+      ],
+      "Datastreams": [
+        {
+          "@iot.id": 3,
+          "name": "P2 pressure",
+          "unitOfMeasurement": {
+            "name": "metre (water column)",
+            "symbol": "m",
+            "definition": "http://qudt.org/vocab/unit/M"
+          },
+          "observationType": "http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_Measurement",
+          "Sensor": {
+            "name": "Piezoresistive pressure transducer",
+            "encodingType": "application/pdf",
+            "metadata": "datasheet.pdf"
+          },
+          "ObservedProperty": {
+            "@iot.id": 1,
+            "name": "Pressure head",
+            "definition": "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0330/",
+            "description": "Gauge pressure head"
+          }
+        }
+      ]
+    },
+    {
+      "@iot.id": 4,
+      "name": "Logger P3",
+      "description": "Battery IoT logger at junction J60 (synthetic DMA)",
+      "properties": {
+        "dma": "DMA-01",
+        "edge_firmware": "minetheflow-edge 0.1"
+      },
+      "Locations": [
+        {
+          "name": "junction J60",
+          "encodingType": "application/geo+json",
+          "location": {
+            "type": "Point",
+            "coordinates": [
+              900.0,
+              0.0
+            ]
+          }
+        }
+      ],
+      "Datastreams": [
+        {
+          "@iot.id": 4,
+          "name": "P3 pressure",
+          "unitOfMeasurement": {
+            "name": "metre (water column)",
+            "symbol": "m",
+            "definition": "http://qudt.org/vocab/unit/M"
+          },
+          "observationType": "http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_Measurement",
+          "Sensor": {
+            "name": "Piezoresistive pressure transducer",
+            "encodingType": "application/pdf",
+            "metadata": "datasheet.pdf"
+          },
+          "ObservedProperty": {
+            "@iot.id": 1,
+            "name": "Pressure head",
+            "definition": "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0330/",
+            "description": "Gauge pressure head"
+          }
+        }
+      ]
+    },
+    {
+      "@iot.id": 5,
+      "name": "Logger P4",
+      "description": "Battery IoT logger at junction J02 (synthetic DMA)",
+      "properties": {
+        "dma": "DMA-01",
+        "edge_firmware": "minetheflow-edge 0.1"
+      },
+      "Locations": [
+        {
+          "name": "junction J02",
+          "encodingType": "application/geo+json",
+          "location": {
+            "type": "Point",
+            "coordinates": [
+              0.0,
+              300.0
+            ]
+          }
+        }
+      ],
+      "Datastreams": [
+        {
+          "@iot.id": 5,
+          "name": "P4 pressure",
+          "unitOfMeasurement": {
+            "name": "metre (water column)",
+            "symbol": "m",
+            "definition": "http://qudt.org/vocab/unit/M"
+          },
+          "observationType": "http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_Measurement",
+          "Sensor": {
+            "name": "Piezoresistive pressure transducer",
+            "encodingType": "application/pdf",
+            "metadata": "datasheet.pdf"
+          },
+          "ObservedProperty": {
+            "@iot.id": 1,
+            "name": "Pressure head",
+            "definition": "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0330/",
+            "description": "Gauge pressure head"
+          }
+        }
+      ]
+    },
+    {
+      "@iot.id": 6,
+      "name": "Logger P5",
+      "description": "Battery IoT logger at junction J33 (synthetic DMA)",
+      "properties": {
+        "dma": "DMA-01",
+        "edge_firmware": "minetheflow-edge 0.1"
+      },
+      "Locations": [
+        {
+          "name": "junction J33",
+          "encodingType": "application/geo+json",
+          "location": {
+            "type": "Point",
+            "coordinates": [
+              450.0,
+              450.0
+            ]
+          }
+        }
+      ],
+      "Datastreams": [
+        {
+          "@iot.id": 6,
+          "name": "P5 pressure",
+          "unitOfMeasurement": {
+            "name": "metre (water column)",
+            "symbol": "m",
+            "definition": "http://qudt.org/vocab/unit/M"
+          },
+          "observationType": "http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_Measurement",
+          "Sensor": {
+            "name": "Piezoresistive pressure transducer",
+            "encodingType": "application/pdf",
+            "metadata": "datasheet.pdf"
+          },
+          "ObservedProperty": {
+            "@iot.id": 1,
+            "name": "Pressure head",
+            "definition": "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0330/",
+            "description": "Gauge pressure head"
+          }
+        }
+      ]
+    },
+    {
+      "@iot.id": 7,
+      "name": "Logger P6",
+      "description": "Battery IoT logger at junction J63 (synthetic DMA)",
+      "properties": {
+        "dma": "DMA-01",
+        "edge_firmware": "minetheflow-edge 0.1"
+      },
+      "Locations": [
+        {
+          "name": "junction J63",
+          "encodingType": "application/geo+json",
+          "location": {
+            "type": "Point",
+            "coordinates": [
+              900.0,
+              450.0
+            ]
+          }
+        }
+      ],
+      "Datastreams": [
+        {
+          "@iot.id": 7,
+          "name": "P6 pressure",
+          "unitOfMeasurement": {
+            "name": "metre (water column)",
+            "symbol": "m",
+            "definition": "http://qudt.org/vocab/unit/M"
+          },
+          "observationType": "http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_Measurement",
+          "Sensor": {
+            "name": "Piezoresistive pressure transducer",
+            "encodingType": "application/pdf",
+            "metadata": "datasheet.pdf"
+          },
+          "ObservedProperty": {
+            "@iot.id": 1,
+            "name": "Pressure head",
+            "definition": "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0330/",
+            "description": "Gauge pressure head"
+          }
+        }
+      ]
+    },
+    {
+      "@iot.id": 8,
+      "name": "Logger P7",
+      "description": "Battery IoT logger at junction J05 (synthetic DMA)",
+      "properties": {
+        "dma": "DMA-01",
+        "edge_firmware": "minetheflow-edge 0.1"
+      },
+      "Locations": [
+        {
+          "name": "junction J05",
+          "encodingType": "application/geo+json",
+          "location": {
+            "type": "Point",
+            "coordinates": [
+              0.0,
+              750.0
+            ]
+          }
+        }
+      ],
+      "Datastreams": [
+        {
+          "@iot.id": 8,
+          "name": "P7 pressure",
+          "unitOfMeasurement": {
+            "name": "metre (water column)",
+            "symbol": "m",
+            "definition": "http://qudt.org/vocab/unit/M"
+          },
+          "observationType": "http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_Measurement",
+          "Sensor": {
+            "name": "Piezoresistive pressure transducer",
+            "encodingType": "application/pdf",
+            "metadata": "datasheet.pdf"
+          },
+          "ObservedProperty": {
+            "@iot.id": 1,
+            "name": "Pressure head",
+            "definition": "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0330/",
+            "description": "Gauge pressure head"
+          }
+        }
+      ]
+    },
+    {
+      "@iot.id": 9,
+      "name": "Logger P8",
+      "description": "Battery IoT logger at junction J35 (synthetic DMA)",
+      "properties": {
+        "dma": "DMA-01",
+        "edge_firmware": "minetheflow-edge 0.1"
+      },
+      "Locations": [
+        {
+          "name": "junction J35",
+          "encodingType": "application/geo+json",
+          "location": {
+            "type": "Point",
+            "coordinates": [
+              450.0,
+              750.0
+            ]
+          }
+        }
+      ],
+      "Datastreams": [
+        {
+          "@iot.id": 9,
+          "name": "P8 pressure",
+          "unitOfMeasurement": {
+            "name": "metre (water column)",
+            "symbol": "m",
+            "definition": "http://qudt.org/vocab/unit/M"
+          },
+          "observationType": "http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_Measurement",
+          "Sensor": {
+            "name": "Piezoresistive pressure transducer",
+            "encodingType": "application/pdf",
+            "metadata": "datasheet.pdf"
+          },
+          "ObservedProperty": {
+            "@iot.id": 1,
+            "name": "Pressure head",
+            "definition": "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0330/",
+            "description": "Gauge pressure head"
+          }
+        }
+      ]
+    },
+    {
+      "@iot.id": 10,
+      "name": "Logger P9",
+      "description": "Battery IoT logger at junction J65 (synthetic DMA)",
+      "properties": {
+        "dma": "DMA-01",
+        "edge_firmware": "minetheflow-edge 0.1"
+      },
+      "Locations": [
+        {
+          "name": "junction J65",
+          "encodingType": "application/geo+json",
+          "location": {
+            "type": "Point",
+            "coordinates": [
+              900.0,
+              750.0
+            ]
+          }
+        }
+      ],
+      "Datastreams": [
+        {
+          "@iot.id": 10,
+          "name": "P9 pressure",
+          "unitOfMeasurement": {
+            "name": "metre (water column)",
+            "symbol": "m",
+            "definition": "http://qudt.org/vocab/unit/M"
+          },
+          "observationType": "http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_Measurement",
+          "Sensor": {
+            "name": "Piezoresistive pressure transducer",
+            "encodingType": "application/pdf",
+            "metadata": "datasheet.pdf"
+          },
+          "ObservedProperty": {
+            "@iot.id": 1,
+            "name": "Pressure head",
+            "definition": "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0330/",
+            "description": "Gauge pressure head"
+          }
+        }
+      ]
+    }
+  ],
+  "example_hybrid_observations": [
+    {
+      "phenomenonTime": "2026-03-09T01:45:00Z",
+      "result": 51.177,
+      "resultQuality": "good",
+      "parameters": {
+        "n_good": 3,
+        "flags": [],
+        "min": 51.14,
+        "max": 51.23
+      }
+    },
+    {
+      "phenomenonTime": "2026-03-09T02:00:00Z",
+      "result": 51.262,
+      "resultQuality": "reconstructed",
+      "parameters": {
+        "n_good": 0,
+        "flags": [
+          "flatline"
+        ],
+        "min": 51.26,
+        "max": 51.27
+      }
+    },
+    {
+      "phenomenonTime": "2026-03-09T02:15:00Z",
+      "result": 51.278,
+      "resultQuality": "reconstructed",
+      "parameters": {
+        "n_good": 0,
+        "flags": [
+          "flatline"
+        ],
+        "min": 51.27,
+        "max": 51.28
+      }
+    },
+    {
+      "phenomenonTime": "2026-03-09T02:30:00Z",
+      "result": 51.293,
+      "resultQuality": "reconstructed",
+      "parameters": {
+        "n_good": 0,
+        "flags": [
+          "flatline"
+        ],
+        "min": 51.29,
+        "max": 51.3
+      }
+    },
+    {
+      "phenomenonTime": "2026-03-09T02:45:00Z",
+      "result": 51.293,
+      "resultQuality": "reconstructed",
+      "parameters": {
+        "n_good": 0,
+        "flags": [
+          "flatline"
+        ],
+        "min": 51.29,
+        "max": 51.3
+      }
+    }
+  ]
+}
