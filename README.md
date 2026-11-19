@@ -6,6 +6,10 @@
 > cloud with a hydraulic model, and measuring what each side is good at. All data is
 > simulated (a synthetic District Metered Area in WNTR/EPANET). It is a learning and
 > exploration exercise, not a validated method or a result on real network data.
+>
+> **Use of AI tools:** I used AI coding assistants to help write and debug the code and
+> to draft this README. I reviewed the code and results, and I take responsibility for the
+> choice of scenarios and for how the results are interpreted.
 
 ![Edge vs cloud vs hybrid comparison](figures/4_edge_cloud_hybrid_comparison.png)
 
