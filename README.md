@@ -6,10 +6,6 @@
 > cloud with a hydraulic model, and measuring what each side is good at. All data is
 > simulated (a synthetic District Metered Area in WNTR/EPANET). It is a learning and
 > exploration exercise, not a validated method or a result on real network data.
->
-> **Use of AI tools:** I used AI coding assistants to help write and debug the code and
-> to draft this README. I reviewed the code and results, and I take responsibility for the
-> choice of scenarios and for how the results are interpreted.
 
 ![Edge vs cloud vs hybrid comparison](figures/4_edge_cloud_hybrid_comparison.png)
 
@@ -191,3 +187,5 @@ localisation_study.py     robustness of localisation over many leak positions
 
 Shared for discussion as part of my application to i3WaterS DC11. Not affiliated with or
 endorsed by UPC or the i3WaterS consortium. Feedback welcome via GitHub issues.
+
+_Developed with the help of AI coding assistants._
